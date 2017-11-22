@@ -1,0 +1,92 @@
+<! DOCTYPE html>
+<html>
+<head><title>242 Yellow Pages</title></head>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<meta name="viewport" content="width=device-width, init	ial-scale=1">
+
+
+<div id="header">
+<header id="main_header">
+    <div id="logo"><a href="/index.html"><img src="images/un_1.1%20(2).png"></a></div>
+    <div id="links">
+    <a href="/yellowpages.html">YELLOW PAGES</a>
+    <a href="/profile.html">PROFILE</a>
+    <a href="/lottery_numbers.html">LOTTERY NUMBERS</a>
+    <a href="/streaming.html">STREAMING</a>
+    <a href="/news.html">NEWS</a>
+    <a href="/weather.html">WEATHER</a>
+    <a href="/faq.html">FAQ</a>
+    <a href="/about_us.html">ABOUT US</a>
+    </div>
+</header>
+</div>
+
+<hr>
+<body>
+    <div id="search_bar_area">
+        <div id="search_position">
+            <input id="search_bar"type="text" placeholder="     Search The Bahamas">
+            <button id="search_button"type="button">Search</button>
+        </div>
+    </div>
+
+
+
+    
+      <button class="accordion">What is 242 Yellow Pages?</button>
+      <div class="panel"><p>242 Yellow Pages is a directory of all local businesses in the Bahamas, providing all relevant information for free. This was done to draw in traffic to a single source and then pair that with Tecknocure to increase search relevance.  242 Yellow Pages is Tecknocure's awareness project, making it clear we exist in the Bahamas, and showing our capability and desire to be on the forefront of Bahamian technology. For more information see our About Us page.</p>
+    </div>
+  		
+
+    
+      <button class="accordion">Does 242 Yellow Pages host the streamed movies & TV shows?</button>
+      <div class="panel"><p>No, 242 Yellow Pages does not host movies or TV shows, all copyrighted content is redirected from external providers.</p>
+    </div>
+  
+
+  
+    
+      <button class="accordion">Does 242 Yellow Pages make advertisements?</button>
+      <div class="panel"><p>Yes, 242 Yellow Pages has an experienced media team for producing quality advertisements for businesses. </p>
+    </div>
+  
+
+  
+    
+      <button class="accordion">How do I get my site added to 242 Yellow Pages?</button>
+      <div class="panel"><p>Contacting us is the first step to getting your website listed. We will review your website to confirm its quality, checking that it is modern and responsive. After that, it will be added to the 242 Yellow Pages directory. Once in our directory, it will be optimized to improve search results to ensure your site gets the traffic it deserves.</p>
+    </div>
+  
+
+  
+    
+      <button class="accordion">Is 242 Yellow Pages free?</button>
+      <div class="panel"><p>Yes, 242 Yellow Pages is free to use and will always be free. You may be required to log in to view certain content but you will never need to pay to use 242 Yellow Pages.</p>
+    </div>
+  
+  
+    
+      <button class="accordion">What is included in a free subscription?</button>
+      <div class="panel"><p>The free subscription includes a business listing, business profile, customer contact options, and the option to enter give-aways.</p>
+    </div>
+  
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].onclick = function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  }
+}
+</script>
+
+</body>
+<footer><div id="footer">POWERED BY TECKNOCURE</div></footer>
+</html>
